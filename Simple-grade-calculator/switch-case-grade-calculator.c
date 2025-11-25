@@ -17,15 +17,15 @@ int main(){
      avg = total / subjects;
 
      if(avg >=90){
-        printf("grade= A");
+       printf("Grade = %c", grade = 'A');
     }else if(avg >= 75){
-        printf("grade= B");
+         printf("Grade = %c", grade = 'B');
     }else if(avg >= 60){
-        printf("grade= C");
+        printf("Grade = %c", grade = 'C');
     }else if(avg >= 40){
-        printf("grade= D");
+        printf("Grade = %c", grade = 'D');
     }else{
-        printf("grade = F");
+       printf("Grade = %c", grade = 'F');
     }
 
     printf("\nTotal marks=%.2f\n",total);
@@ -55,3 +55,33 @@ int main(){
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
