@@ -45,7 +45,7 @@ int main(){
         printf("Needs Improvement\n");
         break;
         case 'F':
-        printf("Fail\n");
+        printf("sorry you Failed\n");
         break;
 
         default:
